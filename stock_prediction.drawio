@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T10:00:08.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" version="20.8.5" etag="NPlITe9ePcIME_VfhHwQ" type="github"><diagram id="4Ms3GwrrhBdsa0rBoUMr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-13T15:20:35.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" version="20.8.5" etag="YbS-ZsKp4rYoaYq9K1XC" type="github">
+  <diagram id="T63IlzuiBs5wLvhRpo8d" name="第 1 页">
+    <mxGraphModel dx="1126" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gfBipXdxCQRcXqJjREAv-1" value="获取股票历史相关数据，包括PE率、流通股等" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;align=center;labelBackgroundColor=none;glass=0;shadow=0;overflow=hidden;verticalAlign=middle;fontFamily=Tahoma;spacingTop=0;spacing=4;spacingLeft=-3;spacingRight=-11;" vertex="1" parent="1">
+          <mxGeometry x="274" y="70" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-2" value="获取股票历史对应价格&lt;br&gt;(网络输入)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;align=center;labelBackgroundColor=none;glass=0;shadow=0;overflow=hidden;verticalAlign=middle;fontFamily=Tahoma;spacingTop=0;spacing=4;spacingLeft=-3;spacingRight=-11;" vertex="1" parent="1">
+          <mxGeometry x="274" y="210" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-3" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;align=center;labelBackgroundColor=none;glass=0;shadow=0;overflow=hidden;verticalAlign=middle;fontFamily=Tahoma;spacingTop=0;spacing=4;spacingLeft=-3;spacingRight=-11;" vertex="1" parent="1">
+          <mxGeometry x="274" y="350" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-4" value="训练模型" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;align=center;labelBackgroundColor=none;glass=0;shadow=0;overflow=hidden;verticalAlign=middle;fontFamily=Tahoma;spacingTop=0;spacing=4;spacingLeft=-3;spacingRight=-11;" vertex="1" parent="1">
+          <mxGeometry x="274" y="490" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-5" value="测试模型" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;align=center;labelBackgroundColor=none;glass=0;shadow=0;overflow=hidden;verticalAlign=middle;fontFamily=Tahoma;spacingTop=0;spacing=4;spacingLeft=-3;spacingRight=-11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="630" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-6" value="模型预测未来股票价格" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;align=center;labelBackgroundColor=none;glass=0;shadow=0;overflow=hidden;verticalAlign=middle;fontFamily=Tahoma;spacingTop=0;spacing=4;spacingLeft=-3;spacingRight=-11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="770" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-7" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Tahoma;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gfBipXdxCQRcXqJjREAv-1" target="gfBipXdxCQRcXqJjREAv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="540" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-8" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Tahoma;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388.5" y="290" as="sourcePoint" />
+            <mxPoint x="388.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-9" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Tahoma;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388.5" y="430" as="sourcePoint" />
+            <mxPoint x="388.5" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-10" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Tahoma;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388.5" y="570" as="sourcePoint" />
+            <mxPoint x="388.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfBipXdxCQRcXqJjREAv-11" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Tahoma;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388.5" y="710" as="sourcePoint" />
+            <mxPoint x="388.5" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
